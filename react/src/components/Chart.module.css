@@ -1,0 +1,16 @@
+.chartBody {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(40, 40, 40, 1);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1011px) {
+    .chartBody {
+        width: 80%;
+        left: calc(50vw - 40%);
+    }
+}
